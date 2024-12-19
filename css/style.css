@@ -1,0 +1,35 @@
+body {
+    background-color: gainsboro;
+    /* Use a system font, if none are available use an available sans-sarif */
+    font-family: system-ui, sans-serif;
+    margin: 0;
+  }
+  
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 325px;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  
+  .sqr {
+    width: 30%;
+    aspect-ratio: 1/1;
+    border: 3px solid black;
+    font-size: 64px;
+    text-align: center;
+  }
+  
+  #reset {
+    margin-top: 30px;
+    padding: 10px;
+    position: relative;
+    background-color: rgba(255, 0, 0, 0.5)
+  }
+  #winmsg {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+  }
